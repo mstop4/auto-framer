@@ -62,7 +62,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "False",
+            "value": "True",
             "varName": "fixed_display_size",
             "varType": 3
         },
@@ -76,7 +76,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "540",
+            "value": "720",
             "varName": "fixedDisplay_width",
             "varType": 1
         },
@@ -93,6 +93,20 @@
             "value": "960",
             "varName": "fixedDisplay_height",
             "varType": 1
+        },
+        {
+            "id": "be66781c-6a57-4279-a921-9f9e5c0dd9a2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "gameArea_fillMinorAxis",
+            "varType": 3
         },
         {
             "id": "28f15b29-3062-4e0e-beb5-bd43d9086244",
@@ -118,8 +132,36 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1440",
+            "value": "1920",
             "varName": "gameArea_height",
+            "varType": 1
+        },
+        {
+            "id": "79c0b361-5d5c-4e36-b25c-86e71dc6ccc4",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "gameArea_offsetX",
+            "varType": 1
+        },
+        {
+            "id": "e23ddcbe-4289-44d6-9f1e-8a3c3aba578c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "gameArea_offsetY",
             "varType": 1
         }
     ],
