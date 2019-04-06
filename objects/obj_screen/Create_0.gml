@@ -1,3 +1,6 @@
+prev_win_width = window_get_width();
+prev_win_height = window_get_height();
+
 fixed_display_size = !(os_type == os_ios || os_type == os_android);
 var _dh, _dw;
 
@@ -13,44 +16,4 @@ else {
 	window_set_size(_dw, _dh);
 }
 
-view_set_wport(0, _dw);
-view_set_hport(0, _dh);
-
-var _ratio = _dw / _dh;
-var _gameArea_ratio = gameArea_width / gameArea_height;
-
-gameArea_fillMinorAxis = _ratio < _gameArea_ratio;
-
-var _cam_w, _cam_h;
-
-if (gameArea_fillMinorAxis) {
-	// portrait
-	if (_ratio <= 1) {
-		_cam_w = gameArea_width;
-		_cam_h = gameArea_width / _ratio;
-	}
-	
-	// landscape
-	else {
-		_cam_w = gameArea_height * _ratio;
-		_cam_h = gameArea_height;
-	}
-}
-
-else {
-	// portrait
-	if (_ratio <= 1) {
-		_cam_w = gameArea_height * _ratio;
-		_cam_h = gameArea_height;
-	}
-	
-	// landscape
-	else {
-		_cam_w = gameArea_width;
-		_cam_h = gameArea_width / _ratio;
-	}
-}
-	
-surface_resize(application_surface, _dw, _dh);
-camera_set_view_size(view_camera[0], _cam_w, _cam_h);
-camera_set_view_pos(view_camera[0], -(_cam_w - gameArea_width) / 2 + gameArea_offsetX, -(_cam_h - gameArea_height) / 2 + gameArea_offsetY);
+auto_frame(_dw, _dh);

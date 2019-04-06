@@ -41,7 +41,7 @@
         {
             "Key": "1512ad0a-a78c-4771-bfc2-3c4cdfc9599d",
             "Value": {
-                "id": "1ed77dd2-5b12-4696-a42b-5d1da9a1be6e",
+                "id": "06d67626-48b1-469f-8ffb-8d23833924d0",
                 "resourcePath": "objects\\obj_screen\\obj_screen.yy",
                 "resourceType": "GMObject"
             }
@@ -52,6 +52,14 @@
                 "id": "d9f425c2-2a62-4d17-8fe2-576c3adf0d90",
                 "resourcePath": "views\\2f36dcba-4d90-4201-843f-29b63735c3f7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "360fb7f1-f393-4441-8668-48e8a2227244",
+            "Value": {
+                "id": "ec9c9e02-e263-4ac4-925a-32deb26a90b2",
+                "resourcePath": "scripts\\auto_frame\\auto_frame.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -240,7 +248,7 @@
         }
     ],
     "script_order": [
-        
+        "360fb7f1-f393-4441-8668-48e8a2227244"
     ],
     "tutorial": ""
 }
