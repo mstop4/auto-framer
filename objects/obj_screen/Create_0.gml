@@ -4,14 +4,15 @@ var _dh, _dw;
 if (fixed_display_size) {
 	_dh = fixedDisplay_height;
 	_dw = fixedDisplay_width;
+	window_set_rectangle(abs(display_get_width() - _dw) / 2, abs(display_get_height() - _dh) / 2, _dw, _dh);
 }
 
 else {
 	_dh = display_get_height();
 	_dw = display_get_width();
+	window_set_size(_dw, _dh);
 }
 
-window_set_size(_dw, _dh);
 view_set_wport(0, _dw);
 view_set_hport(0, _dh);
 
