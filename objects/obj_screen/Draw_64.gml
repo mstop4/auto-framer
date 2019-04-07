@@ -1,5 +1,6 @@
 draw_set_font(fnt_test);
 draw_set_colour(c_white);
+draw_set_halign(fa_left);
 
 draw_text(0, 0, "Display: " + string(display_get_width()) + " x " + string(display_get_height()) + "\n" +
 	"Window: " + string(window_get_width()) + " x " + string(window_get_height()) + "\n" + 
@@ -8,3 +9,6 @@ draw_text(0, 0, "Display: " + string(display_get_width()) + " x " + string(displ
 	"Application Surface: " + string(surface_get_width(application_surface)) + " x " + string(surface_get_height(application_surface))  + "\n" +
 	"Game Area: " + string(gameArea_width) + " x " + string(gameArea_height)
 );
+
+draw_set_halign(fa_right);
+draw_text(window_get_width(), 0, string(fps_real));
