@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
+            "Value": {
+                "id": "dee622e1-1884-4a13-8965-aa951b15588e",
+                "resourcePath": "options\\tvos\\options_tvos.yy",
+                "resourceType": "GMtvOSOptions"
+            }
+        },
+        {
             "Key": "9625e45d-805a-4246-8a7f-34604176f671",
             "Value": {
                 "id": "0a966eb1-a29d-4ee7-a680-7b22e7b5f853",

@@ -183,6 +183,34 @@
             "value": "0",
             "varName": "gameArea_offsetY",
             "varType": 1
+        },
+        {
+            "id": "3ef70355-3723-42fb-a5e7-d0f47d214da0",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "draw_test_pattern",
+            "varType": 3
+        },
+        {
+            "id": "dedcfc31-063a-480d-b820-000682102da3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "draw_stats",
+            "varType": 3
         }
     ],
     "solid": false,
