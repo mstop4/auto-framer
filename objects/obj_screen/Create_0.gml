@@ -17,3 +17,6 @@ else {
 }
 
 auto_frame(_dw, _dh);
+
+window_width = _dw;
+window_height = _dh;
