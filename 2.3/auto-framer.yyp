@@ -3,6 +3,7 @@
     {"id":{"name":"auto_frame","path":"scripts/auto_frame/auto_frame.yy",},"order":0,},
     {"id":{"name":"fnt_test","path":"fonts/fnt_test/fnt_test.yy",},"order":0,},
     {"id":{"name":"obj_screen","path":"objects/obj_screen/obj_screen.yy",},"order":0,},
+    {"id":{"name":"math_structs","path":"scripts/math_structs/math_structs.yy",},"order":2,},
     {"id":{"name":"room0","path":"rooms/room0/room0.yy",},"order":0,},
   ],
   "Options": [

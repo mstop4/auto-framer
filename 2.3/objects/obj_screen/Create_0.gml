@@ -1,22 +1,20 @@
-prev_win_width = window_get_width();
-prev_win_height = window_get_height();
+if (track_window_resize) prev_win_size = new Dimensions2(window_get_width(), window_get_height());
 
 fixed_display_size = !(os_type == os_ios || os_type == os_android);
-var _dh, _dw;
+var _d = new Dimensions2(0, 0);
 
 if (fixed_display_size) {
-	_dh = fixedDisplay_height;
-	_dw = fixedDisplay_width;
-	window_set_rectangle(abs(display_get_width() - _dw) / 2, abs(display_get_height() - _dh) / 2, _dw, _dh);
+	_d.h = fixedDisplay_height;
+	_d.w = fixedDisplay_width;
+	window_set_rectangle(abs(display_get_width() - _d.w) / 2, abs(display_get_height() - _d.h) / 2, _d.w, _d.h);
 }
 
 else {
-	_dh = display_get_height();
-	_dw = display_get_width();
-	window_set_size(_dw, _dh);
+	_d.h = display_get_height();
+	_d.w = display_get_width();
+	window_set_size(_d.w, _d.h);
 }
 
-auto_frame(_dw, _dh);
+auto_frame(_d);
 
-window_width = _dw;
-window_height = _dh;
+window_size = new Dimensions2(_d.w, _d.h);

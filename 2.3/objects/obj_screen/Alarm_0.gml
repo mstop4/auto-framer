@@ -1,4 +1,3 @@
-var _dh = window_get_height();
-var	_dw = window_get_width();
+var _d = new Dimensions2(window_get_width(), window_get_height());
 
-auto_frame(_dw, _dh);
+auto_frame(_d);
