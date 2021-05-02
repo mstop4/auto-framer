@@ -1,0 +1,55 @@
+{
+  "resources": [
+    {"id":{"name":"auto_frame","path":"scripts/auto_frame/auto_frame.yy",},"order":0,},
+    {"id":{"name":"info","path":"notes/info/info.yy",},"order":0,},
+    {"id":{"name":"math_structs","path":"scripts/math_structs/math_structs.yy",},"order":0,},
+    {"id":{"name":"fnt_demo","path":"fonts/fnt_demo/fnt_demo.yy",},"order":0,},
+    {"id":{"name":"obj_demo","path":"objects/obj_demo/obj_demo.yy",},"order":0,},
+    {"id":{"name":"room0","path":"rooms/room0/room0.yy",},"order":0,},
+  ],
+  "Options": [
+    {"name":"iOS","path":"options/ios/options_ios.yy",},
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"HTML5","path":"options/html5/options_html5.yy",},
+    {"name":"tvOS","path":"options/tvos/options_tvos.yy",},
+    {"name":"Android","path":"options/android/options_android.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
+    {"name":"Main","path":"options/main/options_main.yy",},
+    {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},
+  ],
+  "isDnDProject": false,
+  "isEcma": false,
+  "tutorialPath": "",
+  "configs": {
+    "name": "Default",
+    "children": [],
+  },
+  "RoomOrderNodes": [
+    {"roomId":{"name":"room0","path":"rooms/room0/room0.yy",},},
+  ],
+  "Folders": [
+    {"folderPath":"folders/Scripts.yy","order":6,"resourceVersion":"1.0","name":"Scripts","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Fonts.yy","order":8,"resourceVersion":"1.0","name":"Fonts","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects.yy","order":10,"resourceVersion":"1.0","name":"Objects","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms.yy","order":11,"resourceVersion":"1.0","name":"Rooms","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Notes.yy","order":12,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Useful Script Library.yy","order":1,"resourceVersion":"1.0","name":"Useful Script Library","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Useful Script Library/Standalone.yy","order":1,"resourceVersion":"1.0","name":"Standalone","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Useful Script Library/Standalone/Math.yy","order":1,"resourceVersion":"1.0","name":"Math","tags":[],"resourceType":"GMFolder",},
+  ],
+  "AudioGroups": [
+    {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
+  ],
+  "TextureGroups": [
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
+  ],
+  "IncludedFiles": [],
+  "MetaData": {
+    "IDEVersion": "2.3.2.560",
+  },
+  "resourceVersion": "1.4",
+  "name": "auto-framer",
+  "tags": [],
+  "resourceType": "GMProject",
+}
